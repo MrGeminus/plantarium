@@ -1,0 +1,51 @@
+{
+  "name": "plantarium",
+  "version": "1.0.0",
+  "author": {
+    "name": "MrGeminus",
+    "email": "contact@mrgeminus.com",
+    "url": "http://mrgeminus.com/"
+  },
+  "description": "This is an e-commerce exampe website",
+  "keywords": [
+    "HTML5",
+    "React Bootstrap",
+    "SCSS",
+    "React",
+    "TypeScript",
+    "Axios",
+    "Strapi",
+    "Plantarium",
+    "E-commerce",
+    "CRUD Application"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrGeminus/plantarium.git"
+  },
+  "homepage": "https://github.com/MrGeminus/plantarium#readme",
+  "bugs": {
+    "url": "https://github.com/MrGeminus/plantarium/issues",
+    "email": "support@mrgeminus.com"
+  },
+  "license": "MIT",
+  "funding": [
+    {
+      "type": "Buy Me A Coffee",
+      "url": "https://www.buymeacoffee.com/mrgeminus"
+    },
+    {
+      "type": "Subscribe Star",
+      "url": "https://www.subscribestar.com/mrgeminus"
+    }
+  ],
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm-run-all --parallel backend-dev frontend-dev",
+    "backend-dev": "cd backend && npm run develop",
+    "frontend-dev": "cd frontend && npm run develop",
+    "build": "npm run build-backend && npm run build-frontend",
+    "build-backend": "cd backend && npm run build",
+    "build-frontend": "cd frontend && npm run build"
+  }
+}

@@ -1,0 +1,33 @@
+$primary: #279A40;
+$secondary: #C57736;
+
+@import "~bootstrap/scss/bootstrap";
+
+.btn-skip {
+    position: absolute;
+    top: 0.5rem;
+    left: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    opacity: 0;
+    transform: translateX(-100%);
+    transition: all ease-in-out 0.25s;
+}
+
+.btn-skip:focus-visible {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.bg-primary-lighter {
+    background-color: #b0d6b9;
+}
+
+.green-on-hover {
+    font-size: 1.3rem;
+}
+
+.green-on-hover:hover {
+    color: #279A40 !important;
+    transition: color ease-in-out 0.25s;
+}

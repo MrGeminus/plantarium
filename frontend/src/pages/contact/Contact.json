@@ -1,0 +1,53 @@
+{
+    "en": {
+        "title": "Contact",
+        "description": "Do you have any questions? Then contact us via email, phone, or the contact form on the right!",
+        "contactAddress": "Address",
+        "contactPhone": "Phone",
+        "contactFax": "Fax",
+        "workingHours": "Working Hours",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "emailAddress": "Email Address",
+        "phoneNumber": "Phone Number",
+        "orderNumber": "Order Number",
+        "articleNumber": "Article Number",
+        "chooseTopic": "Subject",
+        "message": "Your Message",
+        "sendMessage": "Send Message"
+    },
+    "de": {
+        "title": "Kontakt",
+        "description": "",
+        "contactAddress": "Address",
+        "contactPhone": "Telefon",
+        "contactFax": "Fax",
+        "workingHours": "Arbeitszeit",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "emailAddress": "Deine Emailadresse",
+        "phoneNumber": "Deine Telefonnummer",
+        "orderNumber": "Bestellnummer",
+        "articleNumber": "Artikelnummer",
+        "chooseTopic": "Betreff",
+        "message": "Ihre Nachricht",
+        "sendMessage": "Nachricht Senden"
+    },
+    "rs": {
+        "title": "Kontakt",
+        "description": "Neki Tekst",
+        "contactAddress": "Nasa Adresa",
+        "contactPhone": "Nas Telefon",
+        "contactFax": "Faks",
+        "workingHours": "Radno Vreme",
+        "firstName": "Ime",
+        "lastName": "Prezime",
+        "emailAddress": "Vasa Email Adresa",
+        "phoneNumber": "Vas Broj Telefona",
+        "orderNumber": "Broj Porudzbine",
+        "articleNumber": "Broj Artikla",
+        "chooseTopic": "Naslov",
+        "message": "Vasa Poruka",
+        "sendMessage": "Posalji Poruku"
+    }
+}
